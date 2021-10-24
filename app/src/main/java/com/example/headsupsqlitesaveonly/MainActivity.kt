@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
     }
 
-    fun start(view: android.view.View) {
+    fun addNew(view: android.view.View) {
         startActivity(Intent(applicationContext,Addnewcelebrities::class.java))
     }
 }
